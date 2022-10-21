@@ -18,9 +18,8 @@ const WelcomeBack = () => (
         </View>
         <View style={styles.touchView}>
             <TouchableOpacity style={styles.touchStyle}>
-                <Text style={styles.textSubmit}>SIGN UP</Text>
+                <Text style={styles.textSubmit}>SIGN IN</Text>
             </TouchableOpacity>
-            <Text style={{marginTop: 10}}>Aready have an account? <Text style={{color: '#0d16bd', fontWeight: 'bold'}}>Login</Text></Text>
         </View>
     </View>
 )

@@ -1,7 +1,7 @@
 import React from "react";
 import { Image, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native";
 
-const LoginTemplate = () => (
+const LoginTemplate = ({navigation}) => (
     <View style={styles.container}>
         <View style={styles.logo}>
             <Image source={require('../assets/logo.png')} style={styles.imageLogo}></Image>
@@ -13,10 +13,10 @@ const LoginTemplate = () => (
             <Text style={styles.textContent}>The easiest way to start with your amazing application</Text>
         </View>
         <View style={styles.touchView}>
-            <TouchableOpacity style={styles.touchLogin}>
+            <TouchableOpacity style={styles.touchLogin} onPress={()=>{navigation.navigate('WelcomeBack')}}>
                 <Text style={styles.textLogin}>LOGIN</Text>
             </TouchableOpacity>
-            <TouchableOpacity style={styles.touchSignUp}>
+            <TouchableOpacity style={styles.touchSignUp} onPress={()=>{navigation.navigate('CreateAccount')}}>
                 <Text style={styles.textSignUp}>SIGN UP</Text>
             </TouchableOpacity>
         </View>
