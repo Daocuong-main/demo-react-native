@@ -4,8 +4,16 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import CreateAccount from "./Screen/CreateAccount";
 import LoginTemplate from "./Screen/LoginTemplate";
 import WelcomeBack from "./Screen/WelcomeBack";
-const App = () => {
+export default function App () {
   return (
-    <CreateAccount />
+    <View style={styles.container}>
+        <LoginTemplate />
+    </View>
   )
 };
+
+const styles = StyleSheet.create({
+  container : {
+    flex:1
+  }
+})
