@@ -1,18 +1,8 @@
-import { StatusBar } from "expo-status-bar";
-import React, { useState } from "react";
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import LoginStack from "./Screen/LoginStack";
+import React from "react";
+import LoginMenu from "./Screen/LoginMenu";
 
 
 export default function App() {
 
-  return (
-    <LoginStack/>
-  )
+  return (<LoginMenu/>)
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1
-  }
-})

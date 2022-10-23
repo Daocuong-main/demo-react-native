@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
         width: '100%'
     },
     logo: {
-        marginTop: 100,
+        marginTop: 70,
         justifyContent: 'center',
         alignItems: 'center'
     },
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
         width: 170
     },
     titleView: {
-        marginTop: 20
+        marginTop: 10
     },
     loginTitle: {
         textAlign: 'center',
@@ -58,7 +58,6 @@ const styles = StyleSheet.create({
     },
     touchView: {
         marginTop: 20,
-        flex: 1,
         marginLeft: 30,
         marginRight: 30,
         alignItems: 'center'

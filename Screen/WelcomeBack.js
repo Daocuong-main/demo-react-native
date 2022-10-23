@@ -30,7 +30,6 @@ const styles = StyleSheet.create({
         width: '100%'
     },
     logo: {
-        flex: 0.8,
         marginTop: 100,
         justifyContent: 'center',
         alignItems: 'center'
@@ -48,8 +47,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         color: '#b104fc'
     },
-    inputView: { 
-        flex: 0.6,
+    inputView: {
         marginLeft: 30,
         marginRight: 30,
         flexDirection: 'column'
@@ -66,11 +64,12 @@ const styles = StyleSheet.create({
         marginTop: -15,
         alignItems: 'flex-end'
     },
-    touchView: { 
+    touchView: {
         flex: 1,
         marginLeft: 30,
         marginRight: 30,
-        alignItems: 'center'
+        marginTop: 20,
+        alignItems: 'center',
     },
     touchStyle: {
         width: '100%',
