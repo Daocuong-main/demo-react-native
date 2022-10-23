@@ -10,7 +10,7 @@ const Stack = createNativeStackNavigator();
 export default function LoginMenu() {
     return (
         <NavigationContainer>        
-            <Stack.Navigator>
+            <Stack.Navigator screenOptions={{headerTitle: "", headerTransparent: true}}>
                 <Stack.Screen name="LoginTemplate" component={LoginTemplate} />
                 <Stack.Screen name="CreateAccount" component={CreateAccount} />
                 <Stack.Screen name="WelcomeBack" component={WelcomeBack} />
